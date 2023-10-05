@@ -1,0 +1,60 @@
+.card_conteiner {
+  margin: 10px;
+  max-width: max-content;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.1em solid #d3d3d3;
+  margin-right: 10rem;
+  break-inside: avoid;
+  }
+
+.card_article{
+  background-color: #FFF;
+  text-align: center;
+  
+}
+
+.card_title {
+  font-size: 1.1em ;
+  margin-top: 1em;
+}
+
+.card_ul {
+  margin-top: 0.8em;
+
+}
+
+.card_span {
+  display: flex;
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 0.8em;
+  padding: 0.4em 0.8em;
+}
+
+.container_btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  margin: 0 5px;
+  gap: 10px;
+}
+
+.card_btn1 {
+  padding: 0.4em;
+  background-color: #eb4b4ec2;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+.card_btn2 {
+  padding: 0.4em;
+  border: 1px solid #d3d3d3;
+  color: #d3d3d3;
+  border-radius: 5px;
+}
